@@ -15,14 +15,15 @@ const FeaturesSec2 = () => {
                 className="feature-three-item wow fadeInUp delay-0-2s animated"
                 style={{ visibility: "visible", animationName: "fadeInUp" }}
               >
-                <div className="icon">
+                <div className="icon ">
                   <img
+                    loading="lazy"
                     style={{ width: "32%" }}
                     src="/assets/images/categories/category icon_Make a Career Change.png"
                     alt="Icon"
                   />
                 </div>
-                <h4>Transformar tu Carrera</h4>
+                <h4 className="text-capitalize">Transformar tu Carrera</h4>
                 <p>
                   Alcanza tus objetivos profesionales, progresa en tu carrera e
                   incrementa tu rendimiento e ingresos.
@@ -36,12 +37,13 @@ const FeaturesSec2 = () => {
               >
                 <div className="icon">
                   <img
+                    loading="lazy"
                     style={{ width: "32%" }}
                     src="/assets/images/categories/category icon_International Career Boost.png"
                     alt="Icon"
                   />
                 </div>
-                <h4>Networking Internacional</h4>
+                <h4 className="text-capitalize">Networking Internacional</h4>
                 <p>
                   Profesionales senior de empresas Top, con reconocido prestigio
                   en variedad de sectores y mercados.
@@ -55,12 +57,13 @@ const FeaturesSec2 = () => {
               >
                 <div className="icon">
                   <img
+                    loading="lazy"
                     style={{ width: "32%" }}
                     src="/assets/images/categories/category icon_Get Back to Work.png"
                     alt="Icon"
                   />
                 </div>
-                <h4>Desarrollar tu Potencial</h4>
+                <h4 className="text-capitalize">Desarrollar tu Potencial</h4>
                 <p>
                   Incrementa tu autoconocimiento, tu confianza y tu liderazgo
                   profesional. Elévate e impulsa tu carrera.
